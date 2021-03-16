@@ -1,0 +1,39 @@
+/* Fonts */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+
+/* Components */
+/* @import url("components/name_of_component.css"); */
+@import url("components/card.css");
+@import url("components/button.css");
+
+body {
+  margin: 0;
+  margin-bottom: 100px;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  background-color: rgb(245,245,245)
+/*   #F7B119
+*/}
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 7200px;
+  margin: 100px auto;
+}
+
+a {
+  text-decoration: none;
+  color: #1f94f4;
+  margin: 0 16px 0 8px;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 8px;
+}
+
+p {
+  font-size: 12px;
+  margin: 8px;
+}
